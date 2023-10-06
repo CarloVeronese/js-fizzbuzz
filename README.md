@@ -1,0 +1,11 @@
+- dichiarare una variabile numberClass
+- fare un ciclo da 1 a 100
+    - creare dentro il grid una box con append
+    - la variabile numberClass = contatore
+    - SE il contatore è multiplo di 3 o multiplo di 5
+        - SE il contatore è multiplo di 3
+            - la variabile numberClass è uguale a Fizz
+        - SE il contatore è multiplo di 5
+            - la variabile numberClass è uguale al suo contenuto + Buzz
+        - la classe della cella creata nel DOM è uguale a numberClass
+    - stampo numberClass
