@@ -1,9 +1,10 @@
 // - dichiarare una variabile numberClass
 let numberClass
-// - dichiarare una variabile  
+// - dichiarare una variabile che richiami la frid del DOM
 const gridDOMElement = document.querySelector('.grid')
 // - fare un ciclo da 1 a 100
 for(let i = 1; i <= 100; i++){
+//     - svuotare la variabile classe
     numberClass = ''
 //     - creare una variabile per il box da inserire nel grid
     const boxDOMElement = document.createElement('div')
